@@ -197,7 +197,8 @@ h1 {
 
 .project-icon {
   justify-self: end;
-  width: min(28vw, 330px);
+  width: clamp(140px, 15vw, 210px);
+  height: auto;
   aspect-ratio: 1;
   display: block;
   object-fit: cover;
@@ -236,7 +237,7 @@ footer p { margin: 0; }
   .projects { padding: 84px 0 100px; }
   .project { min-height: 560px; grid-template-columns: 34px 1fr; gap: 8px; align-items: start; }
   .project-body { padding: 54px 0 210px; }
-  .project-icon { width: 170px; position: absolute; right: 10px; bottom: 28px; }
+  .project-icon { width: 112px; position: absolute; right: 10px; bottom: 28px; }
   footer { min-height: 180px; grid-template-columns: 1fr auto; }
   footer p:nth-child(2) { display: none; }
 }
