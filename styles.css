@@ -6,7 +6,6 @@
   --text: #f0f1eb;
   --muted: #9a9e92;
   --accent: #b7f34a;
-  --warm: #dd6b42;
   --font-sans: "Manrope", sans-serif;
   --font-mono: "DM Mono", monospace;
 }
@@ -196,72 +195,14 @@ h1 {
   line-height: 1.65;
 }
 
-.project-status {
-  width: fit-content;
-  margin: 0;
-  border-bottom: 1px solid var(--line);
-  color: var(--text);
-  font: 400 13px/2 var(--font-mono);
-}
-
-.project-mark {
+.project-icon {
   justify-self: end;
   width: min(28vw, 330px);
   aspect-ratio: 1;
-  position: relative;
-  opacity: .9;
+  display: block;
+  object-fit: cover;
+  border-radius: 22.5%;
 }
-
-.brightshelf-mark {
-  display: flex;
-  align-items: flex-end;
-  gap: 5%;
-  transform: skewY(-7deg);
-}
-
-.brightshelf-mark span {
-  flex: 1;
-  background: var(--accent);
-  border: 1px solid #d9ff8b;
-}
-
-.brightshelf-mark span:nth-child(1) { height: 52%; opacity: .38; }
-.brightshelf-mark span:nth-child(2) { height: 76%; opacity: .66; }
-.brightshelf-mark span:nth-child(3) { height: 100%; }
-
-.metevia-mark .cloud {
-  width: 72%;
-  height: 35%;
-  position: absolute;
-  left: 12%;
-  top: 25%;
-  background: var(--warm);
-  border-radius: 48% 52% 8% 8%;
-}
-
-.metevia-mark .cloud::before {
-  content: "";
-  width: 46%;
-  aspect-ratio: 1;
-  position: absolute;
-  right: 9%;
-  top: -56%;
-  background: var(--warm);
-  border-radius: 50%;
-}
-
-.rain {
-  width: 4px;
-  height: 28%;
-  position: absolute;
-  top: 68%;
-  background: var(--text);
-  transform: rotate(18deg);
-}
-
-.rain-one { left: 29%; }
-.rain-two { left: 49%; height: 20%; }
-.rain-three { left: 69%; }
 
 footer {
   min-height: 150px;
@@ -295,7 +236,7 @@ footer p { margin: 0; }
   .projects { padding: 84px 0 100px; }
   .project { min-height: 560px; grid-template-columns: 34px 1fr; gap: 8px; align-items: start; }
   .project-body { padding: 54px 0 210px; }
-  .project-mark { width: 170px; position: absolute; right: 10px; bottom: 28px; }
+  .project-icon { width: 170px; position: absolute; right: 10px; bottom: 28px; }
   footer { min-height: 180px; grid-template-columns: 1fr auto; }
   footer p:nth-child(2) { display: none; }
 }
