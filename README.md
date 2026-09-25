@@ -8,7 +8,7 @@ Static HTML and CSS with a small script for closing the navigation on Escape or 
 
 The homepage and 404 page share `styles.css`. App icons are stored in `assets/`. The layout adapts to narrow screens, supports keyboard navigation, and respects reduced-motion preferences. Geist Mono is loaded through Google Fonts with a local monospace fallback.
 
-App pages live under `/apps/`, with privacy information for each app and Metevia support at `/apps/metevia/support/`. The older GitHub Pages URLs remain as redirects maintained in the `metevia` and `metevia-datenschutz` repositories.
+App detail pages live under `/apps/`; the homepage is the app overview. `/apps/` redirects to `/` for compatibility. Each app has privacy information, and Metevia support lives at `/apps/metevia/support/`. The older GitHub Pages URLs remain as redirects maintained in the `metevia` and `metevia-datenschutz` repositories. App names and icons use CSS cross-document View Transitions where supported.
 
 The hamburger navigation on both pages lists subdomains. Profilfahrt links to `https://profilfahrt.linusfin.de/` and is marked as password-protected; authentication is handled by the destination site.
 
