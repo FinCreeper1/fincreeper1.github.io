@@ -13,3 +13,5 @@ App detail pages live under `/apps/`; the homepage is the app overview. `/apps/`
 The hamburger navigation on both pages lists subdomains. Profilfahrt links to `https://profilfahrt.linusfin.de/` and is marked as password-protected; authentication is handled by the destination site.
 
 App previews appear on mouse hover or keyboard focus and can be dismissed with Escape. Touch devices keep direct app-link navigation. Each preview contains a short description and app imagery. BrightShelf uses its existing icon; Metevia uses two public App Store images saved locally in `assets/metevia-preview-*.webp` from https://apps.apple.com/de/app/metevia/id6787199127 (September 2026).
+
+Metevia's detail page shows seven iPhone and four Apple Watch screenshots from the supplied App Store v1.1 screenshot set. iPhone images are resized JPEGs for web delivery; Watch images retain their original PNG format.
