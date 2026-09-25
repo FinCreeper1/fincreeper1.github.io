@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fincreeper1.github.io/</loc>
+    <loc>https://linusfin.de/</loc>
   </url>
+  <url><loc>https://linusfin.de/apps/</loc></url>
+  <url><loc>https://linusfin.de/apps/metevia/</loc></url>
+  <url><loc>https://linusfin.de/apps/metevia/datenschutz/</loc></url>
+  <url><loc>https://linusfin.de/apps/metevia/support/</loc></url>
+  <url><loc>https://linusfin.de/apps/brightshelf/</loc></url>
+  <url><loc>https://linusfin.de/apps/brightshelf/datenschutz/</loc></url>
 </urlset>
